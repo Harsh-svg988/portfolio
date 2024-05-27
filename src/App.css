@@ -1,0 +1,126 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.App{
+  width:100vw;
+  height:100vh;
+}
+.root{
+  width:100vw;
+  height:100vh;
+}
+.Navbar{
+  width: 100vw;
+  height: 4rem;
+  background-color: #03141e;
+  display: flex;
+  justify-content:space-between;
+  padding-top: 1rem;
+  position: sticky;
+  top: 0;
+}
+.left{
+  margin-left: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xxx-large;
+  font-weight:900;
+  color: #9067c7;
+}
+.rightContent{
+  font-size: x-large;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.right{
+  width:30rem;
+  height: 4rem;
+  display: flex;
+  margin-right: 5rem;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.first-img{
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+.home-page{
+  width: 100vw;
+  height: 50rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #031926;
+}
+div#texts {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12rem;
+  margin-left: 7rem;
+}
+#coder-img{
+  width: 50%;
+  height: 50rem;
+}
+#greetings{
+  width:35rem;
+  color: white;
+  font-size: xxx-large;
+  
+}
+#name{
+  width:35rem;
+  color: white;
+  font-size: xxx-large;
+}
+#profession{
+  width:35rem;
+  color: white;
+  font-size: xxx-large;
+}
+b{
+  color: #9067c7;
+}
