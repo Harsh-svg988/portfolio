@@ -47,7 +47,7 @@
 }
 .Navbar{
   width: 100vw;
-  height: 4rem;
+  height: 5rem;
   background-color: #03141e;
   display: flex;
   justify-content:space-between;
@@ -66,7 +66,7 @@
   color: #9067c7;
 }
 .rightContent{
-  font-size: x-large;
+  font-size: 30px;
   font-weight: bold;
   text-decoration: none;
   color: white;
@@ -123,4 +123,15 @@ div#texts {
 }
 b{
   color: #9067c7;
+}
+.rightContent::after{
+  content:"";;
+  display: block;
+  width: 0;
+  height: 5px;
+  background-color: white;
+  transition: width 0.4s ease;
+}
+.rightContent:hover::after{
+  width: 100%;
 }

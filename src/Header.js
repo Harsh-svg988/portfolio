@@ -1,4 +1,10 @@
+import {useRef} from 'react';
+
 function Header(){
+    let homeRef = useRef(0);
+    function displayUnderline(){
+        homeRef.current.style.textDecoration = "underline";
+    }
     return(
         <div className="Navbar">
             <div className="left">HK</div>
@@ -8,7 +14,6 @@ function Header(){
                 <a href =""id="Project-Link" className="rightContent">Project</a>
                 <a href =""id="Resume_Link" className="rightContent">Resume</a>
             </div>
-            
         </div>
     )
 }
