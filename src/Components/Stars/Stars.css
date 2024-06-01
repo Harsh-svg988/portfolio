@@ -1,0 +1,46 @@
+.stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .star {
+    position: absolute;
+    border-radius: 50%;
+    background: white;
+    opacity: 0;
+    animation: blink 3s ease-in-out infinite;
+  }
+  
+  .star-1 {
+    width: 1px;
+    height: 1px;
+    top: 50%;
+    left: 50%;
+    animation-delay: 0s;
+  }
+  
+  .star-2 {
+    width: 2px;
+    height: 2px;
+    top: 25%;
+    left: 25%;
+    animation-delay: 1s;
+  }
+  
+  /* Repeat for more stars */
+  
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
