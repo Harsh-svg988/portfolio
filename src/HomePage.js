@@ -2,7 +2,7 @@ import Intro from "./Components/Intro/Intro";
 import Typing from "./Components/Typewriter/Typing";
 function HomePage(){
     return (
-        <div>
+        <section className="container">
         <div className = "home-page">
             <div id="texts" className="">
                 <div id = "greetings">Hi There!</div>
@@ -26,7 +26,7 @@ function HomePage(){
             </div>
         </div>
         <Intro/>
-        </div>
+        </section>
         
     );
 }

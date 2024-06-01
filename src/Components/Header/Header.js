@@ -12,7 +12,7 @@ function Header(){
             <div className="left">HK</div>
             <div className="right">
                 <Link to ="/"className="rightContent">Home</Link>
-                <Link to="/About" className="rightContent">About</Link>
+                <Link to="/about" className="rightContent">About</Link>
                 <Link to="/project" className="rightContent">Project</Link>
                 <Link to="/resume" className="rightContent">Resume</Link>
                 {/* <a href =""id="Project-Link" className="rightContent">Project</a>
