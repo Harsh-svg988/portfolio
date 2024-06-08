@@ -18,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<About />} />
+            {/* Done on web vscode */}
           </Routes>
           {/* <HomePage /> */}
           {/* <Intro />
